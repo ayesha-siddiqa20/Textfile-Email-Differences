@@ -5,4 +5,6 @@ The file_differences.py will produce two textfiles contain the differences found
 The sample text files provided, 'sample1.txt' and 'sample2.txt', have a list of emails and we'll run through a quick demo using these files.
 
 First, in the command prompt navigate to where the python file is located. Then run the following command:
-> python file_differences.py txt_diff1.txt txt_diff2.txt
+> python file_differences.py sample1.txt sample2.txt
+
+Then, in the same directory where the python program was executed, you will find the two files "txt_diff1.txt" and "txt_diff2.txt" present.
